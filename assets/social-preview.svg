@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Alteryx Viewer social preview</title>
+  <desc id="desc">Social preview for Alteryx Viewer.</desc>
+  <rect width="1280" height="640" fill="#101820"/>
+  <text x="92" y="150" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800">Alteryx Viewer</text>
+  <text x="96" y="210" fill="#b8c3d1" font-family="Inter, Arial, sans-serif" font-size="30">Read-only .yxmd and .yxzp inspection inside your vault</text>
+  <rect x="96" y="286" width="1088" height="210" rx="8" fill="#17212b" stroke="#314155"/>
+  <text x="142" y="356" fill="#2dd4bf" font-family="SFMono-Regular, Menlo, monospace" font-size="26">1.Output -&gt; 2.Input</text>
+  <text x="142" y="416" fill="#93c5fd" font-family="SFMono-Regular, Menlo, monospace" font-size="26">Formula: CleanName = Trim([Name])</text>
+  <text x="142" y="476" fill="#fbbf24" font-family="SFMono-Regular, Menlo, monospace" font-size="26">Warning: broken connection detected</text>
+</svg>

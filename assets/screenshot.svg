@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Alteryx Viewer screenshot</title>
+  <desc id="desc">Mock screenshot of Alteryx Viewer showing workflow metadata, paths, formulas, tools and warnings.</desc>
+  <rect width="1200" height="760" fill="#0f172a"/>
+  <rect x="48" y="44" width="1104" height="672" rx="8" fill="#111827" stroke="#334155"/>
+  <text x="78" y="88" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">mini-workflow.yxmd</text>
+  <text x="78" y="116" fill="#94a3b8" font-family="SFMono-Regular, Menlo, monospace" font-size="14">test-fixtures/mini-workflow.yxmd</text>
+  <rect x="78" y="148" width="84" height="28" rx="14" fill="#1f2937" stroke="#334155"/>
+  <text x="96" y="168" fill="#e2e8f0" font-family="SFMono-Regular, Menlo, monospace" font-size="13">4 tools</text>
+  <rect x="176" y="148" width="132" height="28" rx="14" fill="#1f2937" stroke="#334155"/>
+  <text x="194" y="168" fill="#e2e8f0" font-family="SFMono-Regular, Menlo, monospace" font-size="13">3 connections</text>
+  <rect x="78" y="204" width="500" height="194" rx="6" fill="#0b1220" stroke="#334155"/>
+  <text x="104" y="238" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">WORKFLOW METADATA</text>
+  <text x="104" y="278" fill="#e2e8f0" font-family="SFMono-Regular, Menlo, monospace" font-size="16">Name    Synthetic Mini Workflow</text>
+  <text x="104" y="314" fill="#e2e8f0" font-family="SFMono-Regular, Menlo, monospace" font-size="16">Version 2025.1</text>
+  <text x="104" y="350" fill="#e2e8f0" font-family="SFMono-Regular, Menlo, monospace" font-size="16">RunE2   True</text>
+  <rect x="622" y="204" width="452" height="194" rx="6" fill="#0b1220" stroke="#334155"/>
+  <text x="648" y="238" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">INPUT/OUTPUT PATHS</text>
+  <text x="648" y="278" fill="#e2e8f0" font-family="SFMono-Regular, Menlo, monospace" font-size="16">1 File .\input\input.xlsx|||Sheet1$</text>
+  <text x="648" y="314" fill="#e2e8f0" font-family="SFMono-Regular, Menlo, monospace" font-size="16">4 File .\output\cleaned.xlsx|||Clean$</text>
+  <rect x="78" y="430" width="996" height="214" rx="6" fill="#0b1220" stroke="#334155"/>
+  <text x="104" y="464" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">TOOLS</text>
+  <text x="104" y="508" fill="#2dd4bf" font-family="SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700">1</text>
+  <text x="150" y="508" fill="#f8fafc" font-family="SFMono-Regular, Menlo, monospace" font-size="16">Read sample input</text>
+  <text x="410" y="508" fill="#94a3b8" font-family="SFMono-Regular, Menlo, monospace" font-size="16">DbFileInput</text>
+  <text x="104" y="550" fill="#2dd4bf" font-family="SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700">2</text>
+  <text x="150" y="550" fill="#f8fafc" font-family="SFMono-Regular, Menlo, monospace" font-size="16">Clean name field</text>
+  <text x="410" y="550" fill="#94a3b8" font-family="SFMono-Regular, Menlo, monospace" font-size="16">Formula</text>
+  <text x="150" y="592" fill="#86efac" font-family="SFMono-Regular, Menlo, monospace" font-size="16">CleanName = Trim([Name])</text>
+</svg>

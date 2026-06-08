@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Alteryx Viewer hero</title>
+  <desc id="desc">A compact workflow inspection interface for Alteryx files.</desc>
+  <rect width="1200" height="360" fill="#101820"/>
+  <rect x="70" y="54" width="1060" height="252" rx="8" fill="#17212b" stroke="#314155"/>
+  <text x="110" y="116" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="46" font-weight="700">Alteryx Viewer</text>
+  <text x="110" y="154" fill="#b8c3d1" font-family="Inter, Arial, sans-serif" font-size="20">Read-only workflow summary, tools, connections and source inspection</text>
+  <g fill="none" stroke-width="3">
+    <path d="M160 236H330" stroke="#0f766e"/>
+    <path d="M430 236H600" stroke="#0f766e"/>
+    <path d="M700 236H870" stroke="#0f766e"/>
+  </g>
+  <g font-family="SFMono-Regular, Menlo, monospace" font-size="16" font-weight="700">
+    <rect x="110" y="198" width="100" height="76" rx="6" fill="#0f766e"/>
+    <text x="134" y="242" fill="#ecfeff">Input</text>
+    <rect x="330" y="198" width="100" height="76" rx="6" fill="#2563eb"/>
+    <text x="348" y="242" fill="#eff6ff">Formula</text>
+    <rect x="600" y="198" width="100" height="76" rx="6" fill="#b45309"/>
+    <text x="630" y="242" fill="#fff7ed">Filter</text>
+    <rect x="870" y="198" width="110" height="76" rx="6" fill="#475569"/>
+    <text x="894" y="242" fill="#f8fafc">Output</text>
+  </g>
+</svg>

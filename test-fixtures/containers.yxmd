@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ControlContainer.ControlContainer">
+        <Position x="80" y="80" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container - synthetic inspection</Caption>
+          <ChildNodes>
+            <Node ToolID="11">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+                <Position x="120" y="140" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <NumRows value="1" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <AnnotationText>Inline fixture rows</AnnotationText>
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+            </Node>
+            <Node ToolID="12">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+                <Position x="300" y="140" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Expression>Uppercase(Trim([_CurrentField_]))</Expression>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <DefaultAnnotationText>_CurrentField_ = Uppercase(Trim([_CurrentField_]))</DefaultAnnotationText>
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+            </Node>
+          </ChildNodes>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <AnnotationText>Synthetic container</AnnotationText>
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxControlContainer" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <MetaInfo>
+      <Name>Synthetic Container Workflow</Name>
+      <WorkflowId value="22222222-2222-2222-2222-222222222222" />
+    </MetaInfo>
+  </Properties>
+</AlteryxDocument>
