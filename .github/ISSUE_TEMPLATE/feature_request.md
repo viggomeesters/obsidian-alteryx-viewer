@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest an improvement for XML Viewer
+about: Suggest an improvement for Alteryx Viewer
 title: "[Feature]: "
 labels: enhancement
 assignees: ""
@@ -12,8 +12,8 @@ What workflow would this improve?
 
 ## Proposed behavior
 
-What should XML Viewer do?
+What should Alteryx Viewer do?
 
 ## Data impact
 
-Would this require editing files, clipboard access, network access, XSLT, validation, or exports?
+Would this require workflow execution, generation, conversion, editing, clipboard access, network access, validation, package extraction, or exports?
