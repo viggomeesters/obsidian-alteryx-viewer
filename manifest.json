@@ -1,7 +1,7 @@
 {
   "id": "alteryx-viewer",
   "name": "Alteryx Viewer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "minAppVersion": "1.5.0",
   "description": "Open .yxmd workflows and .yxzp packages as read-only summaries with search, source view, and warnings.",
   "author": "Viggo Meesters",

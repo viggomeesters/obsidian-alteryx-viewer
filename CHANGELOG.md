@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1 - 2026-10-25
+
+- Cross-platform production build.
+
+
 All notable changes to Alteryx Viewer are documented here.
 
 ## 0.1.0
