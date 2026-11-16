@@ -1,6 +1,6 @@
 {
   "name": "obsidian-alteryx-viewer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Read-only Alteryx workflow and package inspector.",
   "license": "MIT",
   "author": "Viggo Meesters",
