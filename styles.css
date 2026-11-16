@@ -1,4 +1,6 @@
 .alteryx-viewer {
+  container-name: alteryx-viewer;
+  container-type: inline-size;
   --alteryx-viewer-border: var(--background-modifier-border);
   --alteryx-viewer-muted: var(--text-muted);
   --alteryx-viewer-code: var(--font-monospace);
@@ -352,6 +354,21 @@
   text-align: center;
 }
 
+@container alteryx-viewer (max-width: 760px) {
+  .alteryx-viewer__header {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .alteryx-viewer__toolbar {
+    justify-content: flex-start;
+  }
+
+  .alteryx-viewer__grid,
+  .alteryx-viewer__kv {
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width: 760px) {
   .alteryx-viewer {
     padding: 12px;
